@@ -5,9 +5,8 @@
     Original code and ASCII art by Dr. Jan Pearce, Berea College
 
     Edits made by:
-     <Add name of student 1 Here> -- to be added by student 1
-     <Tobore Takpor> -- to be added by student 2
-     
+    <Julio Jijon>
+    <Tobore Takpor>
  */
 #include <iostream>
 using namespace std;
@@ -22,10 +21,17 @@ int main() {
     cin >> ducknum;
 
     for (int i = 0; i < ducknum; i++) { 
-        cout << "                __     " << endl;   
-        cout << "              <(o )___-" << endl;   
+
+        cout << "               _____   " << endl;
+        cout << "              |O   O|  " << endl;
+        cout << "              | ___ |  " << endl;
+        cout << "              |_____|  " << endl;
+        cout << "                       " << endl;
+        cout << "                       " << endl;
+        cout << "                __     " << endl; 
+        cout << "              <(o )___-" << endl; 
         cout << "               ( .__> /" << endl; 
-        cout << "                `----' " << endl;  
+        cout << "                `----' " << endl; 
                                         
         cout << " |0____0|" << endl;
     }
